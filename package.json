@@ -1,0 +1,28 @@
+{
+  "name": "nuxt-demo",
+  "version": "1.0.0",
+  "description": "My mathematical Nuxt.js project",
+  "author": "孟瑞",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "test": "ava"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "element-ui": "^2.4.11",
+    "nuxt": "^2.0.0"
+  },
+  "devDependencies": {
+    "@vue/test-utils": "^1.0.0-beta.27",
+    "ava": "^2.2.0",
+    "babel-plugin-module-resolver": "^3.2.0",
+    "browser-env": "^3.2.5",
+    "require-extension-hooks": "^0.3.3",
+    "require-extension-hooks-babel": "^1.0.0",
+    "require-extension-hooks-vue": "^2.0.0"
+  }
+}
